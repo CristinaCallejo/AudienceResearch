@@ -1,24 +1,27 @@
 # ReadingyourAudience
 
 ### Libraries & packages
+python 3.8.5
 
 [numpy 1.20.2](https://pypi.org/project/numpy/)
 
 [pandas 1.2.4](https://pypi.org/project/pandas/)
 
-(tbc)[scikit-learn 0.24.2](https://pypi.org/project/scikit-learn/)
-
 [seaborn 0.11.1](https://pypi.org/project/seaborn/)
 
 [matplotlib.pyplot 3.4.1](https://pypi.org/project/matplotlib/3.4.1/)
 
-[matplotlib-inline 0.1.2]()
+(tbc)[matplotlib-inline 0.1.2]()
 
 [ipykernel 5.5.4](https://pypi.org/project/ipykernel/)
 
 [OpenCV 4.5.2.52](https://pypi.org/project/opencv-python/)
 
+[scikit-learn 0.24.2](https://pypi.org/project/scikit-learn/)
 
+[keras 2.4.3](https://pypi.org/project/keras/)
+
+[tensorflow 2.5.0](https://pypi.org/project/tensorflow/)
 
 ## BIB
 **Fer2013**
