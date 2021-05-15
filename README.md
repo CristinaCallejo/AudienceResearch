@@ -23,6 +23,8 @@ python 3.8.5
 
 [tensorflow 2.5.0](https://pypi.org/project/tensorflow/)
 
+[wget 3.2](https://pypi.org/project/wget/)
+
 ## BIB
 **Fer2013**
 "Challenges in Representation Learning: A report on three machine learning
