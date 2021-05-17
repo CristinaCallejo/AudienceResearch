@@ -25,6 +25,7 @@ python 3.8.5
 
 [wget 3.2](https://pypi.org/project/wget/)
 
+[imutils 0.5.4](https://pypi.org/project/imutils/)
 ## BIB
 **Fer2013**
 "Challenges in Representation Learning: A report on three machine learning
