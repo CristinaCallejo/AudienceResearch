@@ -1,11 +1,16 @@
 import numpy as np
-from keras.models import model_from_json
+#from keras.models import model_from_json
 import matplotlib.pyplot as plt
 import face_recognition
 from pathlib import Path
 import os
+import sys
+sys.path.append('../src')
 import cv2 # for OpenCV bindings
 
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
+smile_cascade = cv2.CascadeClassifier('haarcascade_smile.xml')
 
 
 # HAAR CASCADE CLASSIFIER
@@ -24,7 +29,10 @@ def detect_face_eyes_smile(pth):
     counter_faces = 0
     counter_smiles = 0
     counter_eyes = 0
-
+    face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+    eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
+    smile_cascade = cv2.CascadeClassifier('haarcascade_smile.xml')
+    
     for file in sorted(pth.iterdir()):
         if file.suffix != '.jpg':
             pass
