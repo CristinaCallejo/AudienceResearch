@@ -29,6 +29,8 @@ python 3.8.5
 
 [scikit-image 0.18.1](https://pypi.org/project/scikit-image/)
 
+ #pip install -q pyyaml h5py
+
 ## BIB
 **Fer2013**
 "Challenges in Representation Learning: A report on three machine learning
