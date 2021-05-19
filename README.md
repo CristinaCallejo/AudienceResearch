@@ -31,6 +31,15 @@ python 3.8.5
 
  #pip install -q pyyaml h5py
 
+X_train.shape = (22967, 48, 48, 1)
+X_test.shape = (7178, 48, 48, 1)
+X_val.shape = (5742, 48, 48, 1)
+y_train.shape = (22967, 2)
+y_test.shape = (7178, 2)
+y_val.shape = (5742, 2)
+
+
+
 ## BIB
 **Fer2013**
 "Challenges in Representation Learning: A report on three machine learning
