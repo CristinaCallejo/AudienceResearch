@@ -2,6 +2,7 @@
 */.ipynb_checkpoints/*
 **/*.ipynb_checkpoints/
 st_explain_and_support.ipynb
+1_fer2013_*.ipynb
 
 .DS_Store
 .DS_Store?
@@ -27,5 +28,9 @@ __pycache__
 *.zip
 *.jpg
 
+*.hdf5
+*.hdf5.json
 
+.hdf5
+.hdf5.json
 https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml

@@ -3,21 +3,58 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
+import os
 from PIL import Image
 import plotly.express as px
 import plotly.graph_objects as go
 import seaborn as sns
 import matplotlib.pyplot as plt
-
-import src.st_manage_data as dat
+import cv2
+import src.st_manage_data as ccst
 
 import codecs
 import streamlit.components.v1 as components
 
 
 
-imagen = Image.open("images/portada2.jpg")
+imagen = Image.open("images_support/cover1.jpeg")
 st.image(imagen)
+
+st.title("Focusing on our audience")
+
+st.write("""
+What did your audience think about the show?
+Analyzing reactions with captured images of your clients during the show.
+""")
+
+foto_in = st.file_uploader(
+    "Let's see reactions...", 
+    type = ['jpeg', 'jpg', 'png'])
+n = 0
+if foto_in:
+    PIC = ccc.transf_imported_Image(foto_in)
+    input_img=cv2.imread(foto_in) # get the array of the original pic
+
+    plt.subplot(121)
+    plt.imshow(input_img) # original pic
+
+    plt.subplot(122)
+    plt.imshow(Image.fromarray(PIC.squeeze()*255)) # transformed pic
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 st.write("""
 # Mi súper Dashboard
