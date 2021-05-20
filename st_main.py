@@ -1,10 +1,16 @@
 import streamlit as st
-from PIL import Image
-import src.manage_data as dat
-import plotly.express as px
+
+import numpy as np
 import pandas as pd
-import folium
-from streamlit_folium import folium_static
+
+from PIL import Image
+import plotly.express as px
+import plotly.graph_objects as go
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+import src.st_manage_data as dat
+
 import codecs
 import streamlit.components.v1 as components
 
@@ -76,7 +82,7 @@ col1.bar_chart(datines)
 col2.subheader("Los datos")
 col2.write(datines)
 
-
+"""
 map_1 = folium.Map(location = [45.50935, -73.57225], zoom_start = 15)
 folium_static(map_1)
 
@@ -84,3 +90,4 @@ folium_static(map_1)
 archivo = codecs.open("data/mapa.html", "r")
 mapa = archivo.read()
 components.html(mapa, height = 550)
+"""

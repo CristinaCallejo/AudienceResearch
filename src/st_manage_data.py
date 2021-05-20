@@ -25,3 +25,8 @@ def bar_2():
     data = carga_data()
     data = data.groupby("character_name").agg({'polarity': 'mean'}).reset_index().set_index("character_name", drop=True)
     return data
+
+"""
+conv to arr
+
+"""

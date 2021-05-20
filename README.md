@@ -27,7 +27,10 @@ python 3.8.5
 
 [imutils 0.5.4](https://pypi.org/project/imutils/)
 
-[scikit-image 0.18.1](https://pypi.org/project/scikit-image/)
+
+[streamlit 0.82.0](https://pypi.org/project/streamlit/)
+
+[plotly-express 0.4.1](https://pypi.org/project/plotly-express/)
 
  #pip install -q pyyaml h5py
 
