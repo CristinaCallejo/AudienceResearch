@@ -11,7 +11,7 @@ python 3.8.5
 
 [matplotlib.pyplot 3.4.1](https://pypi.org/project/matplotlib/3.4.1/)
 
-(tbc)[matplotlib-inline 0.1.2]()
+
 
 [ipykernel 5.5.4](https://pypi.org/project/ipykernel/)
 

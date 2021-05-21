@@ -1,10 +1,15 @@
 from tensorflow.keras.models import model_from_json # Sequential, #load_model
 import json
 import os
+import sys
+sys.path.append('../src')
 import numpy as np
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 from tensorflow.keras.models import  load_model
 from tensorflow.keras import backend as K
+import h5py
+from pathlib import Path
+
 #import time
 #import src.manage_data as ccst
 
