@@ -28,9 +28,4 @@ __pycache__
 *.zip
 *.jpg
 
-*.hdf5
-*.hdf5.json
-
-.hdf5
-.hdf5.json
 https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml
