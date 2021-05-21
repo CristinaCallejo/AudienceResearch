@@ -14,7 +14,7 @@ import plotly.graph_objects as go
 import seaborn as sns
 import matplotlib.pyplot as plt
 import cv2
-import src.st_manage_data as ccc
+import src.code2_data as cc
 import src.preds as mod
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 #import codecs
@@ -44,7 +44,7 @@ if uploaded_file:
     st.write("")
     st.write("Processing...")
 
-    happy_or_not = ccc.predic_(foto_pth)
+    happy_or_not = cc.predic_(foto_pth)
 
     st.write('%s (%.2f%%)' % (label[1], label[2]*100))
 """
